@@ -36,3 +36,12 @@ Learning operating systems concepts through small C projects: virtualization
 - Understand multithreading and synchronization
 - Understand how data is stored on disk
 - Build a foundation for Cyber Operations and systems programing
+
+## Virtualization 
+Creates a process and displays its PID.
+
+## Concurrency
+Creates a thread using pthread and demostrates concurrent execution.
+
+## Persistence
+Writes data to a log file and demostrates file system persistence.
