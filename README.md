@@ -1,18 +1,19 @@
-# ostep-3-pieces-lab
-Learning operating systems concepts through small C projects: virtualization
+# OSTEP 3 Pieces Lab
+
+Learning operating systems concepts through small C projects.
 
 ## Topics
 
 ### Virtualization
 - Processes
-- Processes IDs (PID)
+- Process IDs (PIDs)
 - fork()
 - exec()
-- CPU scheduling
+- CPU Scheduling
 
 ### Concurrency
 - Threads
-- Race conditions
+- Race Conditions
 - Mutexes
 - Semaphores
 
@@ -20,28 +21,44 @@ Learning operating systems concepts through small C projects: virtualization
 - Files
 - Directories
 - Logging
-- File systems
+- File Systems
 
 ## Environment
-
 - Kali Linux
 - VirtualBox
-- Github
+- GitHub
 - GCC
-- C Programing Language
+- C Programming Language
 
-##Learning Goals
-
-- Understanding how Linux manages processes
+## Learning Goals
+- Understand how Linux manages processes
 - Understand multithreading and synchronization
 - Understand how data is stored on disk
-- Build a foundation for Cyber Operations and systems programing
+- Build a foundation for Cyber Operations and Systems Programming
 
-## Virtualization 
-Creates a process and displays its PID.
+## Project Structure
 
-## Concurrency
-Creates a thread using pthread and demostrates concurrent execution.
+### Virtualization
+`virtualization/process_demo.c`
 
-## Persistence
-Writes data to a log file and demostrates file system persistence.
+Demonstrates process creation and execution in Linux using fork().
+
+### Concurrency
+`concurrency/thread_demo.c`
+
+Demonstrates thread creation and concurrent execution using POSIX threads (pthreads).
+
+### Persistence
+`persistence/file_logger.c`
+
+Demonstrates file creation, logging, and persistent storage using standard C file operations.
+
+## Skills Practiced
+- C Programming
+- Linux Command Line
+- Git
+- GitHub
+- Process Management
+- Multithreading
+- File I/O
+- Operating Systems Fundamentals
